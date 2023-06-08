@@ -1,0 +1,280 @@
+body {
+    background: #eab676;
+    z-index: 2;   
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar {
+    z-index: 3;
+}
+
+.nav-color {
+    background-color: #be843e;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in 0.3s;
+}
+
+.img-hero {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    /* list-style: 72px; */
+    letter-spacing: 10px;
+}
+
+.hero-tagline p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    line-height: 35px;
+    width:90%;
+    
+}
+
+.hero-tagline span {
+    letter-spacing: 3px;
+    
+}
+
+.btn-self {
+    background-color: #eab676;
+    font-size: 16px;
+    width: 175px;
+    margin: 20px 0;
+    height: 45px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.btn-self a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-self:hover {
+    text-decoration: underline;
+}
+
+/* OUR SERVICE */
+
+#service {
+    background-color: #fff8f0;
+    width: 100%;
+}
+
+#service h1 {
+    color: #eab676;
+    
+    ;
+}
+
+
+.card {
+    border: none;
+    background-color: #fff8f0;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #9a6018;
+}
+
+
+
+.card-body{
+    color: #9a6018;
+    font-size: 14px;
+}
+
+
+.card-body h4 {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.card-body p {
+        
+    
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.img-circle {
+    box-shadow: 5px 10px 18px #9a6018;
+    border-radius: 5%;
+}
+
+
+/* button equitment */
+
+.btn-support {
+    background-color: #ebc89d;
+}
+
+.btn-support h4{
+    background-color: #eab676;    
+    width: 300px;
+    height: 100%;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    position: relative;
+    top: -23px;
+    text-align: center;
+    margin: auto;
+    color: white;
+           
+}
+
+.img-equitment {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+
+.card-body .up-equitment{
+    font-size: 20px;    
+    position: relative;
+    right: 40px;
+    top: 30px;
+    
+    
+}
+
+.card-body .cap-equitment {
+    font-size: 25px;
+    position: relative;
+    right: 40px;
+    top: 10px;
+    font-weight: 700;
+}
+
+.unit {
+    width: 70px;
+    height: 40px;
+    border: 1px #a7773d solid;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* Tentang kami */
+
+#about-us {
+    background-color: #fff8f0;
+    margin-bottom: 60px;
+
+}
+
+.img-about {
+    width: 100%;
+    margin-top: 70px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgb(189, 187, 187);
+    
+}
+
+.text-about {
+    margin-top: 70px;
+    
+    
+
+}
+
+.img-logo {
+    
+    position: relative;
+    right: 150px;
+    
+}
+
+#about-us p {
+    color: black;
+    text-align: justify;
+    position: relative;
+    bottom: 10px;
+}
+
+.img-forService {
+    width: 100%;
+    
+}
+
+
+
+/* management */
+
+
+#management .card {
+    background-color: #eab676;
+}
+
+.img-card {
+    width: 160px;
+    height: 230px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.text-management {
+    color: #000;
+}
+
+
+/* hubungi kami */
+#kontak  {
+    background-color: #fff8f0;
+    
+    
+
+}
+
+#kontak h1 {
+    margin-top: 70px;
+    
+}
+
+.img-icon {
+    width: 30px;
+}
+
+
+
+.img-loc {
+    width: 75px;
+    margin-right: 200px;
+}
+
+
+
+/* footer */
+
+#footer {
+    height: 60px;
+    width: 100%;
+    margin-right: 200px;
+    background-color: rgb(117, 118, 118);
+    margin-top: 20px;
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    margin: auto;
+}

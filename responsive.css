@@ -1,0 +1,194 @@
+@media screen and (max-width : 576px) {
+
+   
+
+    #service img {
+        width: 70%;
+        margin: auto;
+        
+    }
+
+  #services h4 {
+        
+        
+        color: #9a6018;
+        margin-left: 50px;
+        background-color: aqua;
+        
+    }
+
+    /* about us */
+   
+   
+    #about-us .img-about {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+
+    #about-us h1 {
+        text-align: center;
+    }
+
+    #about-us .img-logo {
+    
+    
+    top: -20px;
+    left: 50px;
+    }
+
+    #about-us p{
+        margin-top: 20px;
+    }
+
+    #about-us .btn-self {        
+        margin-top: -10px;
+    }
+
+    #about-us h1 {
+        
+        margin-top: -30px;
+    }
+
+
+    /* konten */
+    #kontak span {
+        font-size: 14px;
+        font-weight: 500;
+       
+    }
+    #kontak .img-loc {
+       
+        margin-left: 70px;
+        
+    }
+
+    
+}    
+
+/* responsive HP */
+
+
+
+@media screen and (max-width : 350px) {
+    
+       
+    /* HERO TAGLINE  */
+
+       #hero .hero-tagline h1 {            
+            font-size: 24px;
+            letter-spacing: 2px;
+                       
+        }
+
+        #hero .hero-tagline p {            
+            width: 70%;
+            font-size: 12px;
+            line-height: 20px;
+            margin-top: -26px;           
+        }
+        
+        #hero .btn-self {
+           
+            margin-top: 5px;
+        }
+
+        /* OUR SERVICE*/
+
+        #service .card {
+            margin-top: -20px;
+
+        }
+
+       #service .card-body h4 {
+        font-size: 20px;
+        margin-right: 20px;
+       }
+
+       #service .card-body p{
+        font-size: 12px;
+        margin-right: 20px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+       }
+     
+      .card-body .unit {
+        margin-top: 10px;
+       }
+       
+    /* icon */
+
+   #service .btn-support h4{
+            
+        width: 180px;
+        height: auto;
+        font-size: 14px;    
+        top: -17px;            
+    }
+
+
+    #service .img-equitment {
+        width: 65px;
+        height: 70px;
+    }
+
+    
+
+
+    #service .up-equitment{
+        font-size: 20px;            
+        top: 22px;               
+    }
+
+    /* about us */
+
+    #about-us .img-logo {
+    
+    
+        top: -10px;
+        left: 20px;
+    }
+
+    #about-us p {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #about-us .btn-self {
+        
+        position: relative;
+        bottom: 30;
+        left: 25px;
+    }
+
+    #about-us .img-forService {
+        width: 280px;
+        height: auto;
+    }
+    
+    
+
+    /*  kontak */
+
+   
+
+    #kontak .img-loc {
+       
+        position: relative;
+        top: 40px;
+        right: 60px;
+        width: 70px;
+    }
+
+
+
+    }
+
+
+    @media screen and (max-width : 768px) {
+
+        #service .img-equitment {
+        width: 75px;
+        height: 50px;
+        margin-top: 40px;
+    }
